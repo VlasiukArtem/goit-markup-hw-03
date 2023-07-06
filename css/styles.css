@@ -370,6 +370,9 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background: var(--cloud);
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
 }
 
 .filter-list-button:hover,
@@ -382,6 +385,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: 1px solid transparent;
 }
 
 .filter-container {
