@@ -417,11 +417,11 @@ body {
   row-gap: 48px;
 }
 
-.card-list-item {
+.cards-list-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .cards-list-link {
-  width: calc((100% - 48px) / 3);
 }
 .wrapper_card {
   padding: 32px 16px;
