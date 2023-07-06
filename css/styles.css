@@ -136,13 +136,12 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contact-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
