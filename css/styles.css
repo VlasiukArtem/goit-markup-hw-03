@@ -358,6 +358,10 @@ body {
 /**-----PORTFOLIO.HTML----- */
 /**-----FILTER----- */
 
+.filter {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filter-list-button {
   color: var(--iris);
   text-align: center;
@@ -390,6 +394,8 @@ body {
   padding-left: 427px;
   padding-right: 427px;
   display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
   gap: 24px;
   width: calc((100% - 24px * 4) / 5);
 }
