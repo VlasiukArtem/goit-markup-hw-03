@@ -359,6 +359,7 @@ body {
 /**-----FILTER----- */
 
 .filter {
+  padding: 96px 0 120px 0;
 }
 .filter-list-button {
   color: var(--iris);
