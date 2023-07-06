@@ -386,8 +386,6 @@ body {
 
 .filter-container {
   display: flex;
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 
 .filter-list {
@@ -398,6 +396,8 @@ body {
   margin-bottom: 72px;
   gap: 24px;
   width: calc((100% - 24px * 4) / 5);
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .filter-list-item {
 }
