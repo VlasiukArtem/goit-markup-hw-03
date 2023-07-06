@@ -126,6 +126,7 @@ body {
 }
 
 .header-nav {
+  padding: 24px 0;
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -139,7 +140,7 @@ body {
 
 .contact-list {
   display: flex;
-  gap: 18px;
+  gap: 40px;
   padding-right: 156px;
 }
 
