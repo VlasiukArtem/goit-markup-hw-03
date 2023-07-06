@@ -25,6 +25,9 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -62,6 +65,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-left: 156px;
+  margin-right: 76px;
 }
 
 .list {
@@ -99,6 +103,7 @@ body {
 /**-----HEADER----- */
 
 .header {
+  width: 1158px;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower);
