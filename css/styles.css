@@ -141,7 +141,6 @@ body {
 .contact-list {
   display: flex;
   gap: 40px;
-  padding-right: 156px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
