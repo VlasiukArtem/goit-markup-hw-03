@@ -359,8 +359,6 @@ body {
 /**-----FILTER----- */
 
 .filter {
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 .filter-list-button {
   color: var(--iris);
@@ -388,6 +386,8 @@ body {
 
 .filter-container {
   display: flex;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filter-list {
