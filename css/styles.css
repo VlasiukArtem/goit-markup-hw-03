@@ -312,6 +312,9 @@ body {
   padding-bottom: 120px;
   width: calc((100% - 24px * 3) / 4);
 }
+.team-card {
+  padding: 32px 16px;
+}
 
 /**-----FOOTER----- */
 
