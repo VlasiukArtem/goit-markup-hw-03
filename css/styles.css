@@ -410,6 +410,7 @@ body {
 .cards-title {
   margin-bottom: 8px;
 }
+
 .cards-list {
   width: calc((100% - 48px) / 3);
   display: flex;
