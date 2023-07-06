@@ -378,6 +378,7 @@ body {
 
 .filter-list-button:hover,
 .filter-list-button:focus {
+  border: 1px solid transparent;
   background: var(--ocean);
   color: var(--white);
   text-align: center;
@@ -386,7 +387,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: 1px solid transparent;
 }
 
 .filter-container {
