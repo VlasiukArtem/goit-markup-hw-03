@@ -228,8 +228,10 @@ body {
 }
 
 /**-----ADVANTAGES----- */
-.advantages-container {
+.advantages {
   padding: 120px 0;
+}
+.advantages-container {
 }
 
 .advantages-list {
