@@ -64,10 +64,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-left: 156px;
   margin-right: 76px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .list {
@@ -105,8 +102,6 @@ body {
 /**-----HEADER----- */
 
 .header {
-  max-width: 1158px;
-  padding: 24px 0;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -123,15 +118,11 @@ body {
 .header-container {
   align-items: center;
   display: flex;
-  gap: 90px;
 }
 
 .header-nav {
-  padding: 24px 0;
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  justify-content: space-between;
 }
 
 .header-list {
@@ -156,7 +147,7 @@ body {
 
 .contact {
   font-style: normal;
-  padding: 24px 0;
+  margin-left: auto;
 }
 
 .contact-list-item {
@@ -183,15 +174,10 @@ body {
 
 .hero {
   padding: 188px 0;
+  background-color: var(--navyblue);
 }
 
 .hero-container {
-  background-color: var(--navyblue);
-  max-width: 1158px;
-  display: block;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
 }
 
 .hero-title {
@@ -259,7 +245,7 @@ body {
 
 .work {
   padding: 120px 0;
-  background-color: var(--cloud);
+  background-color: var(--white);
 }
 
 .work-title {
@@ -278,8 +264,6 @@ body {
 }
 .work-list-item {
   width: calc((100% - 24px * 2) / 3);
-  padding-bottom: 120px;
-  padding-top: 72px;
 }
 
 /**-----TEAM----- */
@@ -309,7 +293,6 @@ body {
 .team-list-item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
-  padding-bottom: 120px;
   width: calc((100% - 24px * 3) / 4);
 }
 .team-card {
@@ -326,11 +309,9 @@ body {
 
 .footer {
   padding: 100px 0;
+  background: var(--navyblue);
 }
 .footer-container {
-  padding-top: 101.5px;
-  max-width: 1158px;
-  background: var(--navyblue);
 }
 .logo-studio-footer {
   color: var(--cloud);
@@ -340,18 +321,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
-  display: flex;
   color: var(--cloud);
   font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 17.5px;
-  padding-left: 156px;
-  padding-bottom: 100px;
   max-width: 264px;
 }
 
@@ -359,7 +336,9 @@ body {
 /**-----FILTER----- */
 
 .filter {
-  padding: 96px 0 120px 0;
+  padding: 96px 0 0;
+  width: 100%;
+  max-width: 1158px;
 }
 .filter-list-button {
   color: var(--iris);
@@ -395,8 +374,6 @@ body {
 .filter-list {
   display: flex;
   row-gap: 48px;
-  padding-left: 427px;
-  padding-right: 427px;
   display: flex;
   justify-content: center;
   margin-bottom: 72px;
@@ -415,6 +392,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-bottom: 120px;
 }
 
 .cards-list-item {
