@@ -336,7 +336,7 @@ body {
 /**-----FILTER----- */
 
 .filter {
-  padding: 96px 0 0;
+  padding: 96px 0 120px 0;
   width: 100%;
   max-width: 1158px;
 }
